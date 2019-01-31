@@ -4,8 +4,6 @@ Unit test for calculator library.
 
 import calculator
 
-
-
 class TestCalculator:
 
     def test_adition(self):
@@ -13,4 +11,3 @@ class TestCalculator:
 
     def test_substraction(self):
         assert 2 == calculator.subtract(4, 2)
-
