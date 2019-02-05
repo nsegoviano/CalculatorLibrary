@@ -5,8 +5,6 @@ import unittest
 from factorial_calculator import factorial
 
 class TestFactorialCalculator(unittest.TestCase):
-
-
-  def test_factorial(self):
+    def test_factorial(self):
         res = factorial(0)
         self.assertEqual(res, 1)
