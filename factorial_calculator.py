@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import sys
+
 
 def factorial(n):
     if n == 0:
